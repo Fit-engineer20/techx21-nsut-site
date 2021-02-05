@@ -10,7 +10,7 @@
     font-size: 14px;
   }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 3px;
     word-spacing: 3px;
     margin-top: 5px;
@@ -19,7 +19,7 @@
     color: transparent;
   }
   #main-slide .carousel-item .carousel-caption p {
-    font-size: 15px;
+    font-size: 20px;
     word-spacing: 2px;
     letter-spacing: 1px;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
