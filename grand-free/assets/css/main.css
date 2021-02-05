@@ -1125,182 +1125,131 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Schedule Area */
 #schedules {
-  background: #212121;
-}
-
-#schedule-tab {
-  position: relative;
-}
-
-.schedule .schedule-tab-title {
-  margin-bottom: 35px;
-}
-
-.schedule .schedule-tab-title .nav-tabs {
-  background: #ffffff;
-}
-
-.schedule .schedule-tab-title .nav-tabs .nav-link {
-  border-radius: 0px;
-  position: relative;
-  cursor: pointer;
-  height: 90px;
-  width: 255px;
-  border-bottom: 1px solid #e5e5e5;
-  transition: all 500ms ease;
-  padding: 20px 20px;
-}
-
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link, .schedule .schedule-tab-title .nav-tabs .nav-link.active,
-.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover {
-  background:#0d7377;
-  border: 1px solid#14ffec;
-  transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
-}
-
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h4, .schedule .schedule-tab-title .nav-tabs .nav-link.active h4,
-.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h4 {
-  color: #fff;
-}
-
-.schedule .schedule-tab-title .nav-tabs .nav-item.show .nav-link h5, .schedule .schedule-tab-title .nav-tabs .nav-link.active h5,
-.schedule .schedule-tab-title .nav-tabs .nav-item .nav-link:hover h5 {
-  color: #fff;
-}
-
-.schedule .schedule-tab-title .item-text h4 {
-  font-size: 15px;
-  color: #2f323c;
-  line-height: 22px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.schedule .schedule-tab-title .item-text h5 {
-  font-size: 14px;
-  color: #848484;
-  line-height: 16px;
-  font-weight: 400;
-  text-transform: capitalize;
-}
-
-.schedule .schedule-tab-content .tab-content {
-  box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
-}
-
-.schedule .schedule-tab-content .card {
-  border: none;
-}
-
-.schedule .show .card-body {
-  background: #f3f4f3;
-}
-
-.schedule .card-header {
-  border: none;
-  cursor: pointer;
-  background: #323232;
-  border-bottom: 1px solid #ddd;
-}
-
-.schedule .card-header .images-box {
-  width: 70px;
-  height: 70px;
-  float: left;
-  margin-right: 20px;
-}
-
-.schedule .card-header .images-box img {
-  border-radius: 50%;
-}
-
-.schedule .card-header .time {
-  color: #fff;
-  font-size: 13px;
-  margin-bottom: 5px;
-}
-
-.schedule .card-header h4 {
-  font-weight: 700;
-  font-size: 18px;
-  color: #fff;
-  margin-bottom: 8px;
-}
-
-.schedule .card-header .name {
-  position: relative;
-  font-size: 14px;
-  color: #fff;
-  font-weight: 500;
-  display: inline-block;
-  margin-bottom: 5px;
-}
-
-.schedule .card-body {
-  padding: 15px 70px 15px 110px;
-  background: #fff;
-  border-bottom: 1px solid #ddd;
-}
-
-.schedule .card-body .location {
-  font-size: 13px;
-  color: #777777;
-}
-
-.schedule .card-body .location span {
-  color:#14ffec;
-  margin-right: 5px;
-}
-
-.accordion .card {
-  border-radius: 0px;
-  margin-bottom: -2px;
-}
-
-.accordion .header-title {
-  position: relative;
+  background-image: url("assets\img\background\background-image.jpg.jpg");
   background-color: #323232;
+  color: #14ffec;
+  padding: 1rem;
+  font-family: 'Playfair Display', serif;
 }
 
-.accordion .header-title:after {
-  font-family: "LineIcons";
-  content: "\e93a";
-  position: absolute;
-  right: 10px;
-  color: #999;
-  top: 50%;
-  line-height: 1;
-  padding: 0px 5px;
-  margin-top: -7px;
+* {
+  box-sizing: border-box;
 }
 
-.accordion .collapsed:after {
-  content: "\e940";
-}
-
-.accordion .card-header {
-  background: transparent;
-  cursor: pointer;
-  padding: 0;
-}
-
-.accordion .card-header i {
-  color:#14ffec;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  line-height: 40px;
+h1 {
   text-align: center;
-  margin-right: 10px;
-  border-right: 1px solid #ddd;
 }
 
-.accordion .card-body {
-  padding-left: 56px;
-  background-color: #212121;
+.timeline {
+  position: relative;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    border: 2px solid #14ffec;
+    right: 40px;
+    top: 0;
+}
+
+  .timeline::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (min-width: 700px) {
+    .timeline {
+      padding: 2rem;
+    }
+    .timeline::before {
+      left: calc(50% - 1px);
+      right: auto;
+    }
+  }
+
+  .timeline__item--date {
+    text-align: center;
+    max-width: 150px;
+    margin: 0 48px 0 auto;
+    font-size: 1.8rem;
+    line-height: 1;
+    border-image: none;
+    padding: .5rem 1rem 1rem;
+  }
+
+    .timeline__item--date::before {
+      display: none;
+    }
+
+    @media screen and (min-width: 700px) {
+      .timeline__item--date {
+        text-align: center;
+          margin: 0 auto;
+      }
+
+      .timeline__item--date::nth-of-type(2n) {
+        float: none;
+        margin: 0 auto;
+        border-image: none;
+      }
+
+        .timeline__item--date::before {
+          display: none;
+        }
+    }
+
+.timeline__item {
+
+  padding: 1rem;
+  color: #14ffec;
+  border: 2px solid #333;
+  border-image: linear-gradient(to right, #14ffec 0%, #0d7377 100%);
+  border-image-slice: 1;
+  position: relative;
+  margin: 1rem 3rem 1rem 1rem;
+  clear: both;
+}
+
+
+  .timeline__item::after{
+    content: '';
+    position: absolute;
+  }
+
+  .timeline__item::before{
+    content: '';
+    position: absolute;
+  }
+
+  @media screen and (min-width: 700px) {
+    .timeline__item {
+      width: 44%;
+      margin: 1rem;
+    }
+
+    .timeline__item:nth-of-type(2n) {
+      float: right;
+      margin: 1rem;
+      border-image: linear-gradient(to right, #14ffec 0%, #0d7377 100%);
+      border-image-slice: 1;
+    }
+  }
+
+.timeline__title {
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+}
+
+.timeline__blurb {
+  line-height: 1.5;
+  font-size: 1rem;
+  margin: .5rem 0 0;
 }
 
 /* Services Item */
