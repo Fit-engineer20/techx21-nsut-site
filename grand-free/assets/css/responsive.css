@@ -3,6 +3,9 @@
   #main-slide .carousel-caption {
     top: 22%;
   }
+  .time_circles{
+    transform: translateY(55%);
+  }
   .carousel-indicators {
     font-size: 14px;
   }
