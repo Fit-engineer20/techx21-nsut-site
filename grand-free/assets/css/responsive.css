@@ -19,7 +19,7 @@
     font-size: 15px;
     word-spacing: 2px;
     letter-spacing: 1px;
-    background-image: linear-gradient(to left bottom , #00c9FF,#92FE9D);
+    background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
     -webkit-background-clip: text;
     color: transparent;
   }
