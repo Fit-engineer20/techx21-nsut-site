@@ -293,6 +293,9 @@
   .padding-none:nth-child(5) {
     border-bottom: 1px solid #ddd;
   }
+  .time_circles{
+    transform: scale(1.5);
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -336,5 +339,8 @@
   }
   #sponsors .sponsor-section-title-header p{
     font-size: 15px;
+  }
+  .time_circles{
+    transform: scale(1.5);
   }
 }
