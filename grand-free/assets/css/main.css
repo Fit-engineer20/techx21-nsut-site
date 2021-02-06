@@ -201,7 +201,7 @@ ul li, ol li {
   border-radius: 4px;
   cursor: pointer;
   font-weight: 400;
-  color: #fff;
+  color: #212121;
   text-transform: uppercase;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -228,7 +228,7 @@ ul li, ol li {
 }
 
 .btn-common:hover {
-  color: #fff;
+  color: #212121;
   background: #00e0ce;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
@@ -297,7 +297,7 @@ a.back-to-top i {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  color: #fff;
+  color: #212121;
   background:#14ffec;
   border-radius: 0px;
   text-align: center;
@@ -886,6 +886,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .about-item .about-text .btn {
   margin-top: 10px;
+  color:#212121;
 }
 
 .about-item:hover {
@@ -1065,6 +1066,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   -webkit-background-clip: text;  
   color: transparent;
   font-size: 2rem;
+  height: 40px;
 }
 .sponsor-btn {
   font-size: 14px;
