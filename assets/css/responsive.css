@@ -7,7 +7,7 @@
     font-size: 14px;
   }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 35px;
+    font-size: 3.5rem;
     letter-spacing: 3px;
     word-spacing: 3px;
     margin-top: 5px;
@@ -16,7 +16,9 @@
     color: transparent;
   }
   #main-slide .carousel-item .carousel-caption p {
-    font-size: 20px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    height: 3rem;
     word-spacing: 2px;
     letter-spacing: 1px;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
@@ -52,13 +54,13 @@
     top: 32%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 20px;
+    font-size: 35px;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
     -webkit-background-clip: text;
     color: transparent;
   }
   #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
+    font-size: 20px;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
     -webkit-background-clip: text;
     color: transparent;
@@ -121,14 +123,17 @@
     top: 32%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 23px;
+    font-size: 3.5rem;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
     -webkit-background-clip: text;
     color: transparent;
   }
   #main-slide .carousel-item .carousel-caption p {
     word-spacing: 2px;
-    font-size: 15px;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 2rem;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
     -webkit-background-clip: text;
     color: transparent;
@@ -192,14 +197,15 @@
     top: 22%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 14px;
+    font-size: 2.4rem;
     margin-top: 5px;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
     -webkit-background-clip: text;
     color: transparent;
   }
   #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
+    font-size: 1.4rem;
+    margin-bottom: 2.3rem;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
     -webkit-background-clip: text;
     color: transparent;
@@ -296,14 +302,15 @@
   #main-slide .carousel-item .carousel-caption .heading {
     letter-spacing: 0;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 2.5rem;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
     -webkit-background-clip: text;
     color: transparent;
   }
   #main-slide .carousel-item .carousel-caption p {
     word-spacing: 2px;
-    font-size: 14px;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
     -webkit-background-clip: text;
     color: transparent;
