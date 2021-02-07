@@ -254,7 +254,7 @@
                                 gauge: {
                                     thickness: 0.03,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#1abc9c"
+                                    fgColor: "#14ffec"
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
@@ -262,7 +262,7 @@
                                 gauge: {
                                     thickness: 0.03,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#2980b9"
+                                    fgColor: "#14ffec"
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
@@ -270,7 +270,7 @@
                                 gauge: {
                                     thickness: 0.03,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#8e44ad"
+                                    fgColor: "#14ffec"
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
@@ -278,7 +278,7 @@
                                 gauge: {
                                     thickness: 0.03,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#f39c12"
+                                    fgColor: "#14ffec"
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             }
@@ -292,33 +292,33 @@
                             textResponsive: 0.5,
                             days: {
                                 gauge: {
-                                    thickness: 0.1,
+                                    thickness: 0.015,
                                     bgColor: "rgba(255,255,255,.3)",
-                                    fgColor: "#1abc9c"
+                                    fgColor: "#14ffec"
                                 },
                                 textCSS: 'font-weight:600;color:#fff;'
                             },
                             hours: {
                                 gauge: {
-                                    thickness: 0.1,
+                                    thickness: 0.015,
                                     bgColor: "rgba(255,255,255,.3)",
-                                    fgColor: "#2980b9"
+                                    fgColor: "#14ffec"
                                 },
                                 textCSS: 'font-weight:600;color:#fff;'
                             },
                             minutes: {
                                 gauge: {
-                                    thickness: 0.1,
+                                    thickness: 0.015,
                                     bgColor: "rgba(255,255,255,.3)",
-                                    fgColor: "#8e44ad"
+                                    fgColor: "#14ffec"
                                 },
                                 textCSS: 'font-weight:600;color:#fff;'
                             },
                             seconds: {
                                 gauge: {
-                                    thickness: 0.1,
+                                    thickness: 0.015,
                                     bgColor: "rgba(255,255,255,.3)",
-                                    fgColor: "#f39c12"
+                                    fgColor: "#14ffec"
                                 },
                                 textCSS: 'font-weight:600;color:#fff;'
                             }
@@ -332,35 +332,35 @@
                             textResponsive: 0.5,
                             days: {
                                 gauge: {
-                                    thickness: 0.25,
+                                    thickness: 0.15,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#1abc9c",
+                                    fgColor: "#14ffec",
                                     lineCap: 'round'
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
                             hours: {
                                 gauge: {
-                                    thickness: 0.25,
+                                    thickness: 0.15,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#2980b9",
+                                    fgColor: "#14ffec",
                                     lineCap: 'round'
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
                             minutes: {
                                 gauge: {
-                                    thickness: 0.25,
+                                    thickness: 0.15,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#8e44ad", lineCap: 'round'
+                                    fgColor: "#14ffec", lineCap: 'round'
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
                             },
                             seconds: {
                                 gauge: {
-                                    thickness: 0.25,
+                                    thickness: 0.15,
                                     bgColor: "rgba(0,0,0,0.05)",
-                                    fgColor: "#f39c12",
+                                    fgColor: "#14ffec",
                                     lineCap: 'round'
                                 },
                                 textCSS: 'font-family:\'Open Sans\';font-weight:300;color:#34495e;'
