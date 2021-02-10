@@ -22,9 +22,8 @@
     <!-- Responsive Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <!--Counter-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/timerStyles.css">
     <link rel="stylesheet" href="assets/css/jquery.classycountdown.css" />
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
     <!--Favicon-->
     <link rel="shortcut icon" href="assets/img/favicon.ico">
 
@@ -153,7 +152,7 @@
                           <img src="assets/img/innovate-nsut-logo.png" alt="" style="padding-bottom: 50px">
 
                           <div style="background-color: transparent;margin-top: 30px;margin-bottom: 30px;" class="fadeInDown wow" id="rounded-countdown">
-                            <div class="countdown" data-remaining-sec="200000"></div>
+                            <div id="countdown2" class="ClassyCountdownDemo"></div>
                           </div>
                       </div>
                   </div>
@@ -885,5 +884,71 @@
       <script src="assets/js/jquery.throttle.js"></script>
 
       <script src="assets/js/scripts.js"></script>
+
+      <script>
+          $(document).ready(function() {
+                                            
+                                            $('#countdown2').ClassyCountdown({
+                                                now: Math.round( new Date( ).getTime() / 1000),
+                                                end: Math.round( new Date( '2021-03-03T00:00Z' ).getTime() / 1000),
+                                                labels: true,
+                                                style: {
+                                                    element: "",
+                                                    textResponsive: .5,
+                                                    days: {
+                                                        gauge: {
+                                                            thickness: .01,
+                                                            bgColor: "rgba(black,0.05)",
+                                                            fgColor: "#14ffec"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    },
+                                                    hours: {
+                                                        gauge: {
+                                                            thickness: .01,
+                                                            bgColor: "rgba(black,0.05)",
+                                                            fgColor: "#14ffec"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    },
+                                                    minutes: {
+                                                        gauge: {
+                                                            thickness: .01,
+                                                            bgColor: "rgba(black,0.05)",
+                                                            fgColor: "#14ffec"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    },
+                                                    seconds: {
+                                                        gauge: {
+                                                            thickness: .01,
+                                                            bgColor: "rgba(black,0.05)",
+                                                            fgColor: "#14ffec"
+                                                        },
+                                                        textCSS: 'font-family:\'Open Sans\'; font-size:25px; font-weight:300; color:#34495e;'
+                                                    }
+
+                                                },
+                                                onEndCallback: function() {
+                                                    console.log("Time out!");
+                                                }
+                                            });
+                                            
+                                        });
+      </script>
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+      
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      
+      </script>
   </body>
 </html>

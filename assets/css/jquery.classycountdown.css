@@ -24,3 +24,6 @@
     left: 0;
     display: block;
 }
+.ClassyCountdown-value{
+    color: white !important;
+}
