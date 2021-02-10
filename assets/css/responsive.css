@@ -1,7 +1,7 @@
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 3000px) {
   #main-slide .carousel-caption {
-    top: 22%;
+    top: 12%;
   }
   .carousel-indicators {
     font-size: 14px;
@@ -18,7 +18,9 @@
   }
   #main-slide .carousel-item .carousel-caption p {
     font-size: 2rem;
-    margin-bottom: 1rem;
+    /*text-align: end;*/
+    padding-top: 20px;
+    /*margin-bottom: 0.5rem;*/
     height: 3rem;
     word-spacing: 2px;
     letter-spacing: 1px;
