@@ -58,6 +58,7 @@
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 35px;
+    margin-bottom: 1.5rem;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
     -webkit-background-clip: text;
     color: transparent;
@@ -127,6 +128,7 @@
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 3.5rem;
+    margin-bottom: 2.5rem;
     background-image: linear-gradient(to left bottom , #009FFF,#92FE9D);
     -webkit-background-clip: text;
     color: transparent;
