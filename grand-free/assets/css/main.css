@@ -39,9 +39,9 @@ a:hover {
   text-decoration: none;
 }
 
-a a:focus {
+/* a a:focus {
   outline: none;
-}
+} */
 
 p {
   font-weight: 400;
@@ -198,7 +198,7 @@ ul li, ol li {
   border-radius: 4px;
   cursor: pointer;
   font-weight: 400;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -219,14 +219,14 @@ ul li, ol li {
 }
 
 .btn-common {
-  background-color: #E91E63;
+  background-color: #14ffec;
   position: relative;
   z-index: 1;
 }
 
 .btn-common:hover {
   color: #fff;
-  background: #F50057;
+  background: #0d7377;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -1599,6 +1599,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   top: 0;
   bottom: 0;
   right: 0;
+  color:black !important;
 }
 
 .subscribe-inner .sub-btn i {
@@ -1715,7 +1716,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .form-control:focus {
-  border-color: #E91E63;
+  border-color: #14ffec;
   box-shadow: none;
   outline: 0;
 }
@@ -1748,7 +1749,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .footer-area ul li a:hover {
-  color: #E91E63;
+  color: #14ffec;
 }
 
 .footer-area .footer-social li {
@@ -1796,14 +1797,14 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #d34836;
 }
 
-.footer-area .footer-text p {
+/* .footer-area .footer-text p {
   font-size: 14px;
   margin-top: 20px;
   color: #fff;
-}
+} */
 
 .footer-area .footer-text p a {
-  color: #E91E63;
+  color: #14ffec;
 }
 
 .footer-area .footer-text .nav-inline .nav-link {
@@ -1812,9 +1813,24 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .footer-area .footer-text .nav-inline .nav-link:hover {
-  color: #E91E63;
+  color: #14ffec;
 }
 
+.foot-slogan{
+  color: #fff;
+}
+
+hr{
+  width:20%  ;
+  border-top: 2px solid #14ffec ;
+  opacity:1 ;
+  margin-left:0;
+  margin-top:0;
+}
+
+.foot-heading{
+  margin-bottom: 0;
+}
 .image-list {
   padding: 0;
   margin: 0;
@@ -1857,7 +1873,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .image-list .post-content .post-title a:hover {
-  color: #E91E63;
+  color: #14ffec;
 }
 
 .image-list .post-content .meta {
@@ -1891,7 +1907,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .widget {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .widget .widget-title {
@@ -1916,7 +1932,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #copyright p a:hover {
-  color: #E91E63;
+  color: #14ffec;
 }
 
 /* ==========================================================================
