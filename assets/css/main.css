@@ -2523,3 +2523,42 @@ hr{
   color: #fff;
   border-color: #fff;
 }
+
+#logo-techx{
+  width:250px;
+  height: 100px;
+}
+
+#logo-innovate{
+  width:300px;
+  height: 100px;
+}
+#mid-div{
+  margin-top:30px;
+}
+#end-div{
+  margin-left:0px;
+  margin-top:30px;
+}
+
+@media(max-width:800px){
+  #mid-div{
+    margin-top:30px;
+  }
+  #end-div{
+    margin-left:0px;
+    margin-top:0px;
+  }
+}
+
+@media(max-width:400px){
+  #end-div{
+    margin-left:0px;
+    margin-top:0px;
+  }
+
+  #mid-div{
+    margin-top:30px;
+    text-align:left;
+  }
+}
